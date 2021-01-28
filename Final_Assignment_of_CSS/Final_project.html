@@ -28,7 +28,127 @@
             float: left;
             margin: 0%;
             padding-left: 2%;
+                
+        }
+        #nav{
+            width: 100%;
+            height: 2%;
+            margin: 0%;
+        }
+        #logo{
+            float: left;
+            display: inline;
+            padding: 0%;
+           
+        }
+        .header{
+            display: inline;
+            float: right;
+            padding: 1%;
+            padding-top: 2.5%;
+            border-color: black;
+        }
+        a:active{
+            border-bottom-width: 10%;
+            border-bottom-color: orange;
+        }
+        a{
+            text-decoration: none;
+            border-color: black;
+            font-weight: bolder;
+        }
+        #Expert{
+            clear: left;
+            text-align: center;
+            width: 100%;
+            height: 70%;
+            background-position: center;
+            background-position-y: 20%;
+            background-color: rgb(111, 179, 80);
+            padding: 0%;
+            padding-top: 8%;
+           
+            background-image: url("images/_Group_@1X.png");
+           
+            background-size: cover;
             
+           
+        }
+        .exp-h{
+            color: white;
+            
+            font-weight: bolder;
+            font-size: 70px;
+            padding-top: 14%;
+            padding-bottom: 40%;
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: fit-content;            
+        }
+        .exp-p{
+            color: white;            
+            font-weight: normal;
+            font-size: 20px;
+            padding-top: 14%;
+            padding-bottom: 40%;
+            position: absolute;
+            top: 90%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: fit-content;            
+        }
+        #exp{
+            width: 100%;
+            padding-top: 0%;
+            padding-bottom: 20%;
+            text-indent: -9999px;
+        }
+        .expert-p{
+            color: white;
+            padding: 2%;
+        }
+        .button {
+            background-color: rgb(219, 138, 72);
+            font-size: 20px;
+            padding: 10px 10px;
+            border-radius: 4px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            width: 10%;
+            position: absolute;
+            top: 75%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        input{ 
+            filter: opacity(50%);
+        }
+        input:checked{
+            filter: opacity(100%);
+        }
+        
+        .adv{
+            display: inline;
+            align-items: center;
+            align-content: center;
+            float: left;
+            padding: 8%;
+            padding-left: 6%;
+            padding-top: 6%;
+            padding-bottom: 6%;
+            width:2%;
+            height: auto;
+            margin: 3%;
+            margin-left: 0%;
+            border-radius: 50%;
+            background-color: rgba(128, 128, 128, 0.5);
+        }
+        .adv-img{
+           width: 150%;
+           height: auto;
+           padding-right: 5%;
+           padding-top: 0%;
         }
     </style>
 </head>
@@ -40,12 +160,41 @@
                 <p class="top-line" style="padding-right: 2%;"><img src="Images/call.png"></p>
                 <p class="top-line" style=" padding-top: 1px;"><img src="images/aaa.png"/>+92(317)011-3001</p>
                 <p class="top-line" style=" padding-top: 1px;"><img src="images/aaa.png"/>+92(304)386-6719 </p>  
-              
-
             </div> 
-            <div>
-
+            <div id="nav">
+                <ul>
+                    <li id="logo"><img src="images/Panacloud_logo.png"</figure></li>
+                    <li class="header"><a href="">CONTACT US</a></li>
+                    <li class="header"><a href="">OUR SKILLS</a></li>
+                    <li class="header"><a href="">REVIEWS</a></li>
+                    <li class="header"><a href="">PROCESS</a></li>
+                    <li class="header"><a href="">PORTFOLIO</a></li>
+                    <li class="header"><a href="">SERVICES</a></li>
+                    <li class="header"><a href="#Advantages">ABOUT</a></li>
+                    <li class="header"><a href="">WHY US</a></li>
+                </ul>            
             </div>       
         </header>
+        <div id="Expert">
+            <img id= "exp" src="images/We are Expert.png">
+            <h1 class="exp-h">WE ARE EXPERT</h1>
+            <p class="exp-p">To make your document look professionally produced, Word provides header, footer,<br /> cover page, and text box designs that complement each other.</p>
+            <p class="button"><b>Read More</b></p> 
+            <p><input type="radio" name="Visit" value="1st" checked="checked" />
+                <input type="radio" name="Visit" value="2nd" />
+                <input type="radio" name="Visit" value="3rd" />
+            </p>  
+        </div>
+        <div id="Advantages">
+            <h1>OUR <span style="color:rgb(111, 179, 80)">ADVANTAGES</span> </h1>
+            <p class="adv-p">To make your document look professionally produced, Word provides header, footer,<br /> cover page, and text box designs that complement each other.</p>
+            <ul>
+                <li class="adv"><img class = "adv-img" src="images/adv-bulb.png"/></li>
+                <li class="adv"><img  src="images/adv-hand.png"/></li>
+                <li class="adv"><img   src="images/Adv-clock.png"/></li>
+                <li class="adv"><img  src="images/ADV-Client.png"/></li>
+                <li class="adv"><img  src="images/ADV-sup.png"/></li>
+            </ul>
+        </div>
 </body>
 </html>
