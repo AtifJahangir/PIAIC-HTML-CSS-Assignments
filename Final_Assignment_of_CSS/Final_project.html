@@ -142,12 +142,12 @@
             width:2%;
             height: auto;
             margin: 3%;
-            margin-left: 0%;
+            margin-left: .5%;
             border-radius: 50%;
             background-color: rgba(230, 230, 230, 0.541);
         }
         .adv-img{
-           width: 150%;
+           width: 130%;
            height: auto;
            padding-right: 5%;
            padding-top: 0%;
@@ -157,12 +157,61 @@
         }
         #col-1{
             text-align: center;
-            width: 5%;
+            width: 2%;
             clear: left;
             display: block;
-            margin-left: 4%;
+            margin-left: .5%;
             margin-top: 0%;
             padding: 0%;
+            display: inline;
+        }
+        #about-us{
+            text-align: center;
+       
+            background-image: url("images/abt-bg.png");
+            overflow: auto;
+            padding: 1%;
+            background-position: right;
+            background-repeat: no-repeat;
+            background-color: rgba(252, 250, 249, 0.966);
+            background-size: 50%;
+            
+
+           
+            
+        }
+        #abt-p{
+            float: left;
+            width: 35%;
+            margin-left:  5%;
+            margin-top: 1%;
+            margin-bottom: 0%;
+           
+            text-align: left;  
+            padding-bottom: 0%;
+                   
+            
+        }
+        .button2 {
+            background-color: rgb(219, 138, 72);
+            font-size: 20px;
+            padding: 10px 10px;
+            border-radius: 4px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            width: 10%;
+            height: 2%;
+            margin: 15%; 
+            text-align: center;
+            padding-bottom: 20px;
+            position: absolute;
+            transform: translate(-60%, 80%);
+        }
+        #abt-img{
+          max-width: auto-resize;
+           margin-top: -2%;
+           margin-bottom: 0%;
+           width:30%;  
+        
         }
     </style>
 </head>
@@ -185,7 +234,7 @@
                     <li class="header"><a href="">PORTFOLIO</a></li>
                     <li class="header"><a href="">SERVICES</a></li>
                     <li class="header"><a href="#Advantages">ABOUT</a></li>
-                    <li class="header"><a href="">WHY US</a></li>
+                    <li class="header"><a href="#Expert">WHY US</a></li>
                 </ul>            
             </div>       
         </header>
@@ -204,15 +253,35 @@
             <p class="adv-p">To make your document look professionally produced, Word provides header, footer,<br /> cover page, and text box designs that complement each other.</p>
             <ul>
                 <li class="adv"><img class = "adv-img" src="images/adv-bulb.png"/></li>
-                <li class="adv"><img  src="images/adv-hand.png"/></li>
-                <li class="adv"><img   src="images/Adv-clock.png"/></li>
+                <li class="adv" ><img  src="images/adv-hand.png"/></li>
+                <li class="adv"style="margin-left: 2.5%;"><img   src="images/Adv-clock.png"/></li>
                 <li class="adv"><img  src="images/ADV-Client.png"/></li>
-                <li class="adv"><img  src="images/ADV-sup.png"/></li>
+                <li class="adv" style="margin-left: 1%;"><img  src="images/ADV-sup.png"/></li>
             </ul>
             <table id="col-1">
-                <tr><td><p><h2>INNOVATION</h2>Video provides a powerful way to help you prove your point.</p></td></tr>
-                
+                <tr>
+                    <td><p><span style="font-weight: bolder;font-size: 150%;">INNOVATION</span><br />You can also type a keyword to search online for the video that best fits your document</p></td>
+                    <td><p><span style="font-weight: bolder;font-size: 150%;">QUALITY</span><br />You can also type a keyword to search online for the video that best fits your document</p></td>
+                    <td><p><span style="font-weight: bolder;font-size: 150%;">EXPERIENCE</span><br />You can also type a keyword to search online for the video that best fits your document</p></td>
+                    <td><p><span style="font-weight: bolder;font-size: 150%;">HAPPY CLIENTS</span><br />You can also type a keyword to search online for the video that best fits your document</p></td>
+                    <td><p><span style="font-weight: bolder;font-size: 150%;">SUPPORT</span><br />You can also type a keyword to search online for the video that best fits your document</p></td>
+                </tr>
             </table>
+        </div>
+        <div id="about-us">
+            <h1>ABOUT <span style="color:rgb(111, 179, 80)">US</span> </h1>
+            <p id="abt-p">Video provides a powerful way to help you prove your point.
+                When you click Online Video, you can paste in the embed code for the video you want to add.<br /> <br />
+                You can also type a keyword to search online for the video that best fits your document.
+                To make your document look professionally produced, Word provides header, footer, cover page, and text box designs that complement each other.<br /><br />
+                For example, you can add a matching cover page, header, and sidebar.
+                </p>
+                <p class="button2"><b>Read More</b></p> 
+                <img id= "abt-img" src="images/abt cp.png">
+                
+        </div>
+        <div>
+            <h1>ABOUT <span style="color:rgb(111, 179, 80)">US</span> </h1>
         </div>
 </body>
 </html>
