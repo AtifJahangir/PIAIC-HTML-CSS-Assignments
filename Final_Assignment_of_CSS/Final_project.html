@@ -127,33 +127,44 @@
         input:checked{
             filter: opacity(100%);
         }
-        #Advantages{
+        #Advantages {
             text-align: center;
+           
+        }
+        #services{
+            text-align: center;
+            padding: 6%;
+            padding-bottom: 1%;
+            
+
         }
         .adv{
             display: inline;
             align-items: center;
             align-content: center;
             float: left;
-            padding: 8%;
-            padding-left: 6%;
-            padding-top: 6%;
-            padding-bottom: 6%;
-            width:2%;
+            padding: 5%;
+            padding-left: 4%;
+            padding-top: 4%;
+            padding-bottom: 4%;
+            width:3%;
             height: auto;
-            margin: 3%;
-            margin-left: .5%;
+            margin: 4%;
+            margin-left: 4%;
+            margin-bottom: 0%;
             border-radius: 50%;
-            background-color: rgba(230, 230, 230, 0.541);
+            background-color: rgba(224, 221, 221, 0.466); 
+            
         }
         .adv-img{
-           width: 130%;
+           width: 100%;
            height: auto;
-           padding-right: 5%;
+           padding-right: 8%;
            padding-top: 0%;
         }
         .adv-p{
             color: gray;
+            
         }
         #col-1{
             text-align: center;
@@ -161,13 +172,13 @@
             clear: left;
             display: block;
             margin-left: .5%;
-            margin-top: 0%;
+            margin-top: -2%;
+            margin-bottom: 5%;
             padding: 0%;
             display: inline;
         }
         #about-us{
-            text-align: center;
-       
+            text-align: center;       
             background-image: url("images/abt-bg.png");
             overflow: auto;
             padding: 1%;
@@ -175,10 +186,6 @@
             background-repeat: no-repeat;
             background-color: rgba(252, 250, 249, 0.966);
             background-size: 50%;
-            
-
-           
-            
         }
         #abt-p{
             float: left;
@@ -186,11 +193,8 @@
             margin-left:  5%;
             margin-top: 1%;
             margin-bottom: 0%;
-           
             text-align: left;  
             padding-bottom: 0%;
-                   
-            
         }
         .button2 {
             background-color: rgb(219, 138, 72);
@@ -213,6 +217,76 @@
            width:30%;  
         
         }
+        #ser-1{
+            background-color: rgba(224, 221, 221, 0.466); 
+            margin-bottom: -5%;
+        }
+        #ser-img{
+           margin-left: 0%; 
+           margin-top: 0%;
+           margin-bottom: -5%;
+           width:80%; 
+        }
+        #ser-c{
+            height: 100%;
+        }
+        #portfolio{
+            background-color: black;
+            text-align: center;
+            color: white;
+            padding-bottom: 1%;
+            
+        }
+       .pro-ul{
+           display: table-header-group;
+           display: inline;
+           padding: 1%;
+           font-weight: bold;
+           padding-bottom: 0%;
+       }
+       #port-t{
+           width: 90%;
+           margin: 5%;
+           border: none;
+           border-collapse: collapse;
+           margin-top: 2%;
+           
+           
+           
+       }
+       .port-img{
+           width: 18%;
+           
+       }
+      #Process {
+            text-align: center;
+            color: black;
+            margin: 3%;
+      }
+      .adv2{
+            display: inline;
+            align-items: center;
+            align-content: center;
+            float: left;
+            padding: 4%;
+            padding-left: 4%;
+            padding-top: 4%;
+            padding-bottom: 4%;
+            width:4%;
+            
+            margin: 2%;
+            margin-left: 4%;
+            margin-bottom: 0%;
+            border-radius: 50%;
+            background-color:#fff;
+            border:1px solid rgb(161, 160, 160);    
+         
+            
+        
+            
+        }
+               
+       
     </style>
 </head>
 <body>
@@ -230,9 +304,9 @@
                     <li class="header"><a href="">CONTACT US</a></li>
                     <li class="header"><a href="">OUR SKILLS</a></li>
                     <li class="header"><a href="">REVIEWS</a></li>
-                    <li class="header"><a href="">PROCESS</a></li>
-                    <li class="header"><a href="">PORTFOLIO</a></li>
-                    <li class="header"><a href="">SERVICES</a></li>
+                    <li class="header"><a href="#Process">PROCESS</a></li>
+                    <li class="header"><a href="#portfolio">PORTFOLIO</a></li>
+                    <li class="header"><a href="#services">SERVICES</a></li>
                     <li class="header"><a href="#Advantages">ABOUT</a></li>
                     <li class="header"><a href="#Expert">WHY US</a></li>
                 </ul>            
@@ -251,13 +325,13 @@
         <div id="Advantages">
             <h1>OUR <span style="color:rgb(111, 179, 80)">ADVANTAGES</span> </h1>
             <p class="adv-p">To make your document look professionally produced, Word provides header, footer,<br /> cover page, and text box designs that complement each other.</p>
-            <ul>
-                <li class="adv"><img class = "adv-img" src="images/adv-bulb.png"/></li>
-                <li class="adv" ><img  src="images/adv-hand.png"/></li>
-                <li class="adv"style="margin-left: 2.5%;"><img   src="images/Adv-clock.png"/></li>
-                <li class="adv"><img  src="images/ADV-Client.png"/></li>
-                <li class="adv" style="margin-left: 1%;"><img  src="images/ADV-sup.png"/></li>
-            </ul>
+            <table style="width: 100%;">
+                <td class="adv"><img class = "adv-img" src="images/adv-bulb.png"/></td>
+                <td class="adv"><img  src="images/adv-hand.png"/></td>
+                <td class="adv"><img   src="images/Adv-clock.png"/></td>
+                <td class="adv"><img  src="images/ADV-Client.png"/></td>
+                <td class="adv" ><img  src="images/ADV-sup.png"/></td>
+            </table>
             <table id="col-1">
                 <tr>
                     <td><p><span style="font-weight: bolder;font-size: 150%;">INNOVATION</span><br />You can also type a keyword to search online for the video that best fits your document</p></td>
@@ -280,8 +354,68 @@
                 <img id= "abt-img" src="images/abt cp.png">
                 
         </div>
-        <div>
-            <h1>ABOUT <span style="color:rgb(111, 179, 80)">US</span> </h1>
+        <div id="services">
+            <h1 style="margin-top:-5%;">OUR <span style="color:rgb(111, 179, 80)">SERVICES</span> </h1>
+            <p class="adv-p">To make your document look professionally produced, Word provides header, footer,<br /> cover page, and text box designs that complement each other.</p>
+            <table cellspacing ="30" >
+                <tbody><tr id="ser-1">
+                    <td calss="ser-c"><p><span style="font-weight: bolder;font-size: 150%;">WEB DESIGN</span><br />You can also type a keyword to search online for the video that best fits your document <br /><br /><a style="text-decoration: underline; " href="#">read more</a></p></td>
+                    <td calss="ser-c"><p><span style="font-weight: bolder;font-size: 150%;">GRAPHIC DESIGN</span><br />You can also type a keyword to search online for the video that best fits your document <br /><br /><a style="text-decoration: underline; " href="#">read more</a></p></td>
+                    <td calss="ser-c"><p><span style="font-weight: bolder;font-size: 150%;">BRANDING</span><br />You can also type a keyword to search online for the video that best fits your document <br /><br /><a style="text-decoration: underline; " href="#">read more</a></p></td>
+                    <td calss="ser-c"><p><span style="font-weight: bolder;font-size: 150%;">MARKETING</span><br />You can also type a keyword to search online for the video that best fits your document <br /><br /><a style="text-decoration: underline; " href="#">read more</a></p></td>
+                </tr>
+                <img id="ser-img" src="images/services.png" alt="services">
+            </tbody>
+            </table>
         </div>
+        <div id="portfolio">
+            <h1 style="color: white; padding-top: 3%;">OUR  <span style="color:rgb(111, 179, 80)">PORTFOLIO</span> </h1>
+            <p class="adv-p" style="color: white; padding-bottom: 3%;">To make your document look professionally produced, Word provides header, footer,<br /> cover page, and text box designs that complement each other.</p>
+            <ul >
+                <li class= "pro-ul">WEB DESIGN</li>
+                <li class= "pro-ul">GRAPHIC DESIGN</li>
+                <li class= "pro-ul">BRANDING</li>
+                <li class= "pro-ul" style="color: orange;">LOGO</li>
+                <li class= "pro-ul">MARKETING</li>
+                <li class= "pro-ul">ADVERTISMENT</li>                
+            </ul>
+            <table id="port-t">
+                <tr>
+                    <td style="background-color: white;" class="port-img"><img src="images/Horse.png"></td>
+                    <td style="background-color: rgba(136, 133, 133, 0.56);" class="port-img"><img src="images/ST.png"></td>
+                    <td style="background-color: rgb(199, 199, 199);" class="port-img"><img src="images/creative.png"></td>
+                    <td style="background-color: rgb(138, 136, 136);" class="port-img"><img src="images/team.png"></td>
+                    <td style="background-color: white;" class="port-img"><img src="images/RHINO.png"></td>
+                </tr>
+                <tr>
+                    <td style="background-color: rgb(138, 136, 136);" class="port-img"><img src="images/growth.png"></td>
+                    <td style="background-color: rgb(199, 199, 199);" class="port-img"><img src="images/brain.png"></td>
+                    <td style="background-color: white;" class="port-img"><img src="images/Lion.png"></td>
+                    <td style="background-color: rgb(247, 48, 48);"><img src="images/grow.png"></td>
+                    <td style="background-color: rgba(136, 133, 133, 0.56);" class="port-img"><img src="images/social-g.png"></td>
+                </tr>
+            </table>
+        </div>
+
+            <div id="Process" style="background-color: white;">
+                <h1>OUR <span style="color:rgb(111, 179, 80)">PROCESSES</span> </h1>
+                <p class="adv-p">To make your document look professionally produced, Word provides header, footer,<br /> cover page, and text box designs that complement each other.</p>
+                <table style="width: 100%;">
+                    <td class="adv2"><img src="images/adv-bulb.png"/></td>
+                    <td class="adv2"><img src="images/adv-hand.png"/></td>
+                    <td class="adv2"><img src="images/Adv-clock.png"/></td>
+                    <td class="adv2"><img src="images/ADV-Client.png"/></td>
+                    <td class="adv2"><img src="images/ADV-sup.png"/></td>
+                </table>
+                <table id="col-1">
+                    <tr>
+                        <td><p><span style="font-weight: bolder;font-size: 150%;">INNOVATION</span><br />You can also type a keyword to search online for the video that best fits your document</p></td>
+                        <td><p><span style="font-weight: bolder;font-size: 150%;">QUALITY</span><br />You can also type a keyword to search online for the video that best fits your document</p></td>
+                        <td><p><span style="font-weight: bolder;font-size: 150%;">EXPERIENCE</span><br />You can also type a keyword to search online for the video that best fits your document</p></td>
+                        <td><p><span style="font-weight: bolder;font-size: 150%;">HAPPY CLIENTS</span><br />You can also type a keyword to search online for the video that best fits your document</p></td>
+                        <td><p><span style="font-weight: bolder;font-size: 150%;">SUPPORT</span><br />You can also type a keyword to search online for the video that best fits your document</p></td>
+                    </tr>
+                </table>
+            </div>
 </body>
 </html>
